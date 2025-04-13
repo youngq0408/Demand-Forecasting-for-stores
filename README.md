@@ -4,8 +4,7 @@
 This project focuses on predicting product demand in retail stores using historical sales data. The data includes information about store IDs, SKU IDs, pricing, promotions, and weekly sales volume. A machine learning pipeline was built to preprocess the data, train a predictive model, and evaluate its performance using error metrics and visualization techniques.
 
 ## Objective
-The main objective is to 
-Build a predictive model that accurately esitmates the number of units sold for each product in each store
+The main objective is to **Build a predictive model that accurately esitmates the number of units sold for each product in each store**
 
 This helps businesses:
 Forecast future inventory needs 
@@ -17,13 +16,13 @@ Total Rows: 150,150
 
 Total Columns: 9
 
-record_ID: Unique identifier for each transaction record
-week: Date of the record (format: yy/mm/dd)
+record_ID: Unique identifier for each transaction record/
+week: Date of the record (format: yy/mm/dd)/
 store_id: Identifier for the store
 sku_id:  Identifier for the product (SKU = Stock Keeping Unit)
 total_price:  Final price paid (could include discounts/promotions)
 base_price: Original price of the item
-is_featured_sku: Binary flag (1/0) indicating if the product was featured
+is_featured_sku: Binary flag (1/0) indicating if the product was featured/
 is_display_sku: Binary flag (1/0) indicating if the product was placed in a display area
 units_sold: Target variable — number of units sold during the week
 
