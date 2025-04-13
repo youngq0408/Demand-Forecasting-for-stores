@@ -15,15 +15,15 @@ This helps businesses:
 This project uses one datasets, 'store_demand_forecasting.csv'
 This dataset contains **150,150 rows** and **9 columns** 
 
-**record_ID:** Unique identifier for each transaction record
-**week:** Date of the record (format: yy/mm/dd)
-**store_id:** Identifier for the store
-**sku_id:**  Identifier for the product (SKU = Stock Keeping Unit)
-**total_price:**  Final price paid (could include discounts/promotions)
-**base_price:** Original price of the item
-**is_featured_sku:** Binary flag (1/0) indicating if the product was featured
-**is_display_sku:** Binary flag (1/0) indicating if the product was placed in a display area
-**units_sold:** Target variable — number of units sold during the week
+'record_ID:' Unique identifier for each transaction record.
+'week:' Date of the record (format: yy/mm/dd).
+**store_id:** Identifier for the store.
+**sku_id:**  Identifier for the product (SKU = Stock Keeping Unit).
+**total_price:**  Final price paid (could include discounts/promotions).
+**base_price:** Original price of the item.
+**is_featured_sku:** Binary flag (1/0) indicating if the product was featured.
+**is_display_sku:** Binary flag (1/0) indicating if the product was placed in a display area.
+**units_sold:** Target variable — number of units sold during the week.
 
 ## Step-by-Step Process
 
