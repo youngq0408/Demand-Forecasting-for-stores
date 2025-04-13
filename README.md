@@ -71,6 +71,6 @@ Selected the best model and evaluated it on the test set.
 - **Matplotlib**: For plotting basic visualizations.
 
 ## Results
-- **Root Mean Squared Error(RMSE)**: RMSE (Root Mean Squared Error): Gave an interpretable measure of average prediction error.
+- **Root Mean Squared Error(RMSE)**: Gave an interpretable measure of average prediction error.
 - **R-squared(R²)**: Provided a basic measure of how well the model explained variance in units_sold.
 ## Future Work
