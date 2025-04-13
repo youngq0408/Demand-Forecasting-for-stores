@@ -64,11 +64,11 @@ Selected the best model and evaluated it on the test set.
 
 
 ## Tools and Libraries
-- Python: Core language used for analysis and modeling.
-- Pandas: For data manipulation and preprocessing.
-- Numpy:  For numerical operations and creating ranges used in plotting.
-- Scikit-Learn: For machine learning modeling and evaluation.
-- Matplotlib: For plotting basic visualizations.
+- **Python**: Core language used for analysis and modeling.
+- **Pandas**: For data manipulation and preprocessing.
+- **Numpy**:  For numerical operations and creating ranges used in plotting.
+- **Scikit-Learn**: For machine learning modeling and evaluation.
+- **Matplotlib**: For plotting basic visualizations.
 
 ## Results
 - **Root Mean Squared Error(RMSE)**: RMSE (Root Mean Squared Error): Gave an interpretable measure of average prediction error.
