@@ -7,22 +7,22 @@ This project focuses on predicting product demand in retail stores using histori
 The main objective is to **Build a predictive model that accurately esitmates the number of units sold for each product in each store**
 
 This helps businesses:
-Forecast future inventory needs 
-Reduce overstock and stockouts 
-Improve decision-making in pricing and promotions 
+- Forecast future inventory needs
+- Reduce overstock and stockouts 
+- Improve decision-making in pricing and promotions 
 
 ## Dataset
 Total Rows: 150,150
 
 Total Columns: 9
 
-record_ID: Unique identifier for each transaction record/
-week: Date of the record (format: yy/mm/dd)/
+record_ID: Unique identifier for each transaction record
+week: Date of the record (format: yy/mm/dd)
 store_id: Identifier for the store
 sku_id:  Identifier for the product (SKU = Stock Keeping Unit)
 total_price:  Final price paid (could include discounts/promotions)
 base_price: Original price of the item
-is_featured_sku: Binary flag (1/0) indicating if the product was featured/
+is_featured_sku: Binary flag (1/0) indicating if the product was featured
 is_display_sku: Binary flag (1/0) indicating if the product was placed in a display area
 units_sold: Target variable — number of units sold during the week
 
