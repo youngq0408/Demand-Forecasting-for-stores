@@ -1,4 +1,4 @@
-Demand Forecasting for Stores
+# Demand Forecasting for Stores
 
 ## Project Overview
 This project focuses on predicting product demand in retail stores using historical sales data. The data includes information about store IDs, SKU IDs, pricing, promotions, and weekly sales volume. A machine learning pipeline was built to preprocess the data, train a predictive model, and evaluate its performance using error metrics and visualization techniques.
@@ -27,7 +27,7 @@ is_featured_sku: Binary flag (1/0) indicating if the product was featured
 is_display_sku: Binary flag (1/0) indicating if the product was placed in a display area
 units_sold: Target variable — number of units sold during the week
 
-Step-by-Step Process
+## Step-by-Step Process
 
 Step 1: Data Loading and Preprocessing
 Loaded the dataset using pandas
@@ -65,7 +65,7 @@ Used GridSearchCV to find the best combination of n_estimators and min_samples_s
 Selected the best model and evaluated it on the test set.
 
 
-Tools and Libraries
+## Tools and Libraries
 Python: Core language used for analysis and modeling.
 Pandas: For data manipulation and preprocessing.
 Numpy:  For numerical operations and creating ranges used in plotting.
@@ -73,11 +73,11 @@ Scikit-Learn: For machine learning modeling and evaluation.
 Matplotlib: For plotting basic visualizations.
 
 
-Results
+## Results
 Root Mean Squared Error(RMSE): RMSE (Root Mean Squared Error): Gave an interpretable measure of average prediction error.
 
 R-squared(R^2): Provided a basic measure of how well the model explained variance in units_sold.
 
 
 
-Future Work
+## Future Work
