@@ -27,38 +27,38 @@ This dataset contains **150,150 rows** and **9 columns**
 
 ## Step-by-Step Process
 
-###**Step 1: Data Loading and Preprocessing**
+### **Step 1: Data Loading and Preprocessing**
 Loaded the dataset using pandas
 Extracted day, month and year from the week column
 Dropped the original week column to clean the data
 
-###**Step 2: Model Preparation**
+### **Step 2: Model Preparation**
 Split the dataset into features (X) and target (y = units_sold).
 Used train_test_split() to divide the data into training and testing sets.
 Initialized and trained a Random Forest Regressor using the training data.
 
-###**Step 3: Evaluation with RMSE**
+### **Step 3: Evaluation with RMSE**
 Made predictions on the test set.
 Evaluated model performance using Root Mean Squared Error (RMSE) and R² score.
 
-###**Step 4: Visualization and Stats**
+### **Step 4: Visualization and Stats**
 Used describe() and hist() to understand the distribution of units_sold.
 Plotted predicted vs actual values to visually assess prediction accuracy.
 Explored histograms for all features using matplotlib.
 
-###**Step 5: Data Cleaning & Feature Engineering**
+### **Step 5: Data Cleaning & Feature Engineering**
 Dropped record_ID (non-informative column).
 Checked for outliers using the 99th percentile of units_sold.
 Removed extreme outliers to improve model performance.
 
-###**Step 6: One-Hot Encoding**
+### **Step 6: One-Hot Encoding**
 Converted categorical columns store_id and sku_id into binary (dummy) variables using pd.get_dummies().
 
-###**Step 7: Retrain Model After Encoding**
+### **Step 7: Retrain Model After Encoding**
 Repeated the model training using the updated dataset with one-hot encoded features.
 Evaluated model performance again using R² and RMSE.
 
-###**Step 8: Hyperparameter Tuning**
+### **Step 8: Hyperparameter Tuning**
 Used GridSearchCV to find the best combination of n_estimators and min_samples_split for the Random Forest model.
 Selected the best model and evaluated it on the test set.
 
