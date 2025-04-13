@@ -73,4 +73,3 @@ Selected the best model and evaluated it on the test set.
 ## Results
 - **Root Mean Squared Error(RMSE)**: Gave an interpretable measure of average prediction error.
 - **R-squared(R²)**: Provided a basic measure of how well the model explained variance in units_sold.
-## Future Work
