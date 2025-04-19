@@ -25,6 +25,13 @@ This dataset contains **150,150 rows** and **9 columns**
 - `is_display_sku:` Binary flag (1/0) indicating if the product was placed in a display area.
 - `units_sold:` Target variable — number of units sold during the week.
 
+## Tools and Libraries
+- **Python**: Core language used for analysis and modeling.
+- **Pandas**: For data manipulation and preprocessing.
+- **Numpy**:  For numerical operations and creating ranges used in plotting.
+- **Scikit-Learn**: For machine learning modeling and evaluation.
+- **Matplotlib**: For plotting basic visualizations.
+
 ## Step-by-Step Process
 
 ### **Step 1: Data Loading and Preprocessing**
@@ -61,14 +68,6 @@ Evaluated model performance again using R² and RMSE.
 ### **Step 8: Hyperparameter Tuning**
 Used GridSearchCV to find the best combination of n_estimators and min_samples_split for the Random Forest model.
 Selected the best model and evaluated it on the test set.
-
-
-## Tools and Libraries
-- **Python**: Core language used for analysis and modeling.
-- **Pandas**: For data manipulation and preprocessing.
-- **Numpy**:  For numerical operations and creating ranges used in plotting.
-- **Scikit-Learn**: For machine learning modeling and evaluation.
-- **Matplotlib**: For plotting basic visualizations.
 
 ## Results
 - **Root Mean Squared Error(RMSE)**: Gave an interpretable measure of average prediction error.
